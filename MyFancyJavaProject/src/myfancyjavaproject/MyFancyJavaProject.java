@@ -30,4 +30,9 @@ class Car{
         this.name=name;
         this.price = price;
     }
+    
+    void view_car_function()
+    {
+        System.out.println("This car has V8 engine.");
+    }
 }
